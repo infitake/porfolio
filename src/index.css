@@ -1,0 +1,628 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.app {
+  position: sticky;
+  z-index: 500;
+  top:0;
+  width: 100%;
+}
+#navbar {
+  background-color: rgb(62, 168, 237);
+  width: 100%;
+  height: 70px;
+  position: sticky;
+}
+.main-logo {
+  float: left;
+  color: white;
+  font-size: 25px;
+  padding: 15px;
+}
+.showing-nav ul {
+  list-style-type: none;
+}
+.showing-nav ul li{
+  float: right;
+  padding: 20px;
+  text-decoration:none;
+}
+.links {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.showing-nav .nav-pills >li >a {
+  color: black;
+} 
+.showing-nav .nav-pills >li >a:hover {
+  color: black;
+  border-bottom: 2px solid #ecf0f1;
+} 
+.showing-nav .nav-pills .active {
+  color: black;
+  border-bottom: 2px solid #ecf0f1;
+  font-weight: bold;
+} 
+.text-area {
+  margin-top: 15%;
+}
+h1 {
+  color: rgb(62, 168, 237);
+  font-size: 50px;
+  padding:20px;
+}
+.info-box-exp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+
+}
+.info-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left:10%;
+
+}
+ .box1,.box2,.box3,.box4,.box5 {
+  border: 1px  solid white;
+  width: 80%;
+  height: 80%;
+  margin: 30px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ p{
+  color: grey;
+  font-size: 25px;
+  padding: 10px;
+}
+span {
+  margin-bottom: 20px; 
+}
+
+.special-information {
+  margin-top: 20px;
+  font-size: 20px;
+}
+div.topic {
+  text-align: center;
+  font-size: 30px;
+  color: grey;
+}
+div.all-services {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: 20px;
+  font-size: 20px;
+  color: grey;
+}
+i {
+  color: grey;
+}
+.main-text {
+  float: right;
+}
+
+.circular--portrait {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--portrait img {
+  width: 100%;
+  height: 100%;
+  /* height: auto; */
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+#name {
+  margin-top: 20%;
+}
+#intro {
+  margin-left: 30%;
+}
+a#resume {
+  position: relative;
+  margin-left: 50%;
+}
+
+.info-box-home {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-top:8%;
+}
+
+#social {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+#heart-icon {
+  color:red;
+}
+footer {
+  background:rgb(62, 168, 237);
+  height:10%;
+}
+li {
+  padding: 10px;
+}
+.input-Entrys {
+  text-align: center;
+  color: rgb(62, 168, 237);
+  margin: 10px;
+}
+.input-field {
+  margin: 20px;
+  margin-left: 100px;
+  padding: 10px;
+}
+input[type="text"]{
+  width: 400px;
+  height: 50px;
+  text-align: left;
+  left:20px;
+  font-size: 20px;
+  border:none;
+  border-radius:5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+}
+input[type="email"]{
+  width: 400px;
+  height: 50px;
+  text-align: left;
+  font-size: 20px;
+  left:20px;
+  border:none;
+  border-radius:5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+}
+.all-contant {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+.btn {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(62, 168, 237);
+  border:1px solid white;
+  border-radius: 5px;
+}
+ img{
+  width: 500px;
+  height: 400px;
+}
+.foot {
+  text-align: center;
+  color: grey;
+}
+.gallary {
+  padding: 10px;
+}
+.each-slide {
+  width: 400px;
+  height: 400px;
+  margin-left: 400px; 
+}
+@media screen and (min-width: 300px) and (max-width: 350px) {
+  #navbar {
+    height: 120px;
+    display: flex;
+    width: 415px;
+    flex-direction: column;
+  }
+  .showing-nav ul li{
+    float: right;
+    padding: 10px;
+    text-decoration:none;
+    margin-right: 10px;
+  }
+  .main-logo {
+    margin-left: 30%;
+  }
+  #intro {
+    margin-left: 5%;
+}
+.main-text {
+  float: left;
+}
+  .main-text h1 {
+    font-size: 25px;
+  }
+  .main-text p {
+    font-size: 20px;
+  }
+  .info-box {
+    display: flex;
+   flex-direction: column;
+   margin-left: 18%;
+   margin-right: -18%;
+
+  }
+  .info-box-home {
+    display: flex;
+   flex-direction: column;
+  }
+  .info-box-exp {
+    display: flex;
+   flex-direction: column;
+   margin-left: 13%;
+    margin-right: -26%;
+  }
+  .image-area {
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: 30px; 
+  }
+  .box1,.box2,.box3,.box4,.box5 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    }
+  div.all-services {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+  }
+  .all-contant {
+    display: flex;
+    flex-direction: column;
+  }
+  .input-field {
+    margin: 0px;
+    margin-left: 10px;
+    padding: 10px;
+  }
+  input[type="text"], input[type="email"]{
+    width: 300px;
+    height: 50px;
+  }
+  img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+  }
+  .input-Entrys {
+    text-align: center;
+    color: rgb(62, 168, 237);
+    margin: 15px;
+    margin-left: 16%;
+  }
+  #pricing {
+    margin-top: 100px;
+  }
+  footer {
+    width: 130%;
+  }
+}
+
+@media screen and (min-width: 350px) and (max-width: 400px) {
+  #navbar {
+    height: 120px;
+    display: flex;
+    width: 115%;
+    flex-direction: column;
+  }
+  .showing-nav ul li{
+    float: right;
+    padding: 10px;
+    text-decoration:none;
+    margin-right: 10px;
+  }
+  .main-logo {
+    margin-left: 30%;
+  }
+  #intro {
+    margin-left: 5%;
+}
+.main-text {
+  float: left;
+}
+  .main-text h1 {
+    font-size: 25px;
+  }
+  .main-text p {
+    font-size: 20px;
+  }
+  .info-box {
+    display: flex;
+   flex-direction: column;
+   margin-left: 18%;
+
+  }
+  .info-box-home {
+    display: flex;
+   flex-direction: column;
+  }
+  .info-box-exp {
+    display: flex;
+   flex-direction: column;
+   margin-left: 25%;
+  }
+  .image-area {
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: 30px; 
+  }
+  .box1,.box2,.box3,.box4,.box5 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    }
+  div.all-services {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+  }
+  .all-contant {
+    display: flex;
+    flex-direction: column;
+  }
+  .input-field {
+    margin: 0px;
+    margin-left: 10px;
+    padding: 10px;
+  }
+  input[type="text"], input[type="email"]{
+    width: 300px;
+    height: 50px;
+  }
+  img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+  }
+  .input-Entrys {
+    text-align: center;
+    color: rgb(62, 168, 237);
+    margin: 15px;
+    margin-left: 16%;
+  }
+  #pricing {
+    margin-top: 100px;
+  }
+  footer {
+    width: 115%;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 550px) {
+  #navbar {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .main-logo {
+    margin-left: 30%;
+  }
+  #intro {
+    margin-left: 5%;
+}
+.main-text {
+  float: left;
+}
+.links {
+  font-size: 18px;
+}
+
+
+a#resume {
+  margin-left: 35%;
+}
+  .info-box {
+    display: flex;
+   flex-direction: column;
+   margin-left: 7%;
+  }
+  .info-box-home {
+    display: flex;
+   flex-direction: column;
+  }
+  .info-box-exp {
+    display: flex;
+   flex-direction: column;
+  }
+  .image-area {
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: 40px; 
+  }
+  .box1,.box2,.box3,.box4,.box5 {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 10px;
+    }
+  div.all-services {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+  }
+  .all-contant {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-text h1 {
+    font-size: 35px;
+  }
+  .main-text p {
+    font-size: 30px;
+  }
+  .input-field {
+    margin: 0px;
+    margin-left: 10px;
+    padding: 10px;
+  }
+  input[type="text"], input[type="email"]{
+    width: 300px;
+    height: 50px;
+  }
+  img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+  }
+  .input-Entrys {
+    text-align: center;
+    color: rgb(62, 168, 237);
+    margin-top: 25px;
+    padding: 20px;
+  }
+  #pricing {
+    margin-top: 100px;
+  }
+  
+}
+@media screen and (min-width:550px) and (max-width: 800px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  #navbar {
+    width: 107%;
+  }
+  footer{
+    width:107%;
+  }
+  .info-box {
+    display: flex;
+   flex-direction: column;
+   margin-right: 15%;
+   margin-left: -10%;
+  }
+  .info-box-home {
+    display: flex;
+   flex-direction: column;
+  }
+  #intro {
+    margin-left: 35%;
+}
+.main-text {
+  
+  float: left;
+  margin-left: 25%;
+
+}
+  .info-box-exp {
+    display: flex;
+   flex-direction: column;
+   margin-right: 15%;
+   margin-left: -10%;
+  }
+  .image-area {
+    max-width: 500px;
+    max-height: 500px;
+    margin-left: 70px; 
+  }
+  .box1,.box2,.box3,.box4,.box5 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-left: 25%;
+    padding: 10px;
+    }
+ 
+  .all-contant {
+    display: flex;
+    flex-direction: column;
+  }
+  .input-field {
+    margin: 0px;
+    margin-left: 10px;
+    padding: 10px;
+  }
+  input[type="text"], input[type="email"]{
+    width: 300px;
+    height: 50px;
+  }
+  img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+  }
+  #pricing {
+    margin-top: 100px;
+  }
+
+}
+
+@media screen and (min-width: 800px) and (max-width: 1050px) {
+  .image-area {
+    max-width: 400px;
+    max-height: 400px;
+    margin-left: 35%; 
+  }
+  .container #pricing {
+    float: center;
+  }
+  div.info-box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    text-align: center;
+  
+  }
+  div.info-box-home {
+    display: flex;
+    flex-direction: column;
+  }
+  div.info-box-exp {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .box1,.box2,.box3,.box4,.box5 {
+    display: flex;
+    flex-direction: column;
+    text-align: center
+    }
+}
