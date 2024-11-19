@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "emailjs-com": "^2.6.3",
-    "firebase": "^5.11.1",
+    "firebase": "^10.9.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
